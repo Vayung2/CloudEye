@@ -1,0 +1,15 @@
+<!-- templates/upload.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Upload</title>
+    <link rel="stylesheet" href = "{{ url_for('static', filename = 'styles.css')}}">
+</head>
+<body>
+    <h1>Upload a photo, or send a photo through the ESP32Cam</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="photo" accept=".jpg, .jpeg, .png">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
