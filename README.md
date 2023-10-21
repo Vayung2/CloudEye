@@ -6,5 +6,6 @@ Here is a sample of the images taken by the ESP32Cam:
 <img width="771" alt="image" src="https://github.com/Vayung2/CloudEye/assets/112582191/f9651ce9-807f-47ba-8d18-cbe26a0020c1">
 
 Here is a result coming to the ESP32 Terminal, after an image is taken by the ESP32Cam, sent to a Flask Server hosted on the Cloud, and returned after processing by an AI. 
+
 <img width="687" alt="image" src="https://github.com/Vayung2/CloudEye/assets/112582191/33583611-8ef9-4a5f-9b1e-1895cba0f846">
 
